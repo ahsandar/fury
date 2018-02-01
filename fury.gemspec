@@ -9,6 +9,5 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
-  gem.homepage    = 'https://gitlab.com/rubydev/fury'
-  gem.license       = 'MIT'
+  gem.homepage    = 'https://github.com/ahsandar/fury'
 end
