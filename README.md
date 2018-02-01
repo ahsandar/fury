@@ -1,6 +1,6 @@
 (Nick) Fury humanity's first line of defense against command line usage
 
-Its a gem to run multiple shell commands and get its output. It allows you to setup chain of commands need to be executed and also give a standard interface to run shell commands without worrying about different ruby syntax to execute command and capture the output.
+Its a gem version of [Command Service ](https://github.com/ahsandar/command-service) to run multiple shell commands and get its output. It allows you to setup chain of commands need to be executed and also give a standard interface to run shell commands without worrying about different ruby syntax to execute command and capture the output.
 
 Usage
 ===
@@ -27,7 +27,8 @@ Fury.run_now('echo Director Fury is no longer in command. Override order 7-Alpha
 ```
 
 ```
-#commands can be added to the queue for execution , commands are combined using ';' for shell execution
+#commands can be added to the queue for execution ,
+#commands are combined using ';' for shell execution
 
 fury = Fury.new('echo Hell knows no Fury')
 fury.execute
@@ -37,7 +38,10 @@ fury.execute!
 ```
 
 ```
-#commands can be added to the queue for execution , commands can be combined using desired separator for shell execution
+#commands can be added to the queue for execution ,
+#commands can be combined using desired separator for
+#shell execution
+
 fury = Fury.new('echo Hell knows no Fury')
 fury.execute
 fury.join('&')
