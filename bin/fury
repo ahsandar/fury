@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'fury'
+Fury.run_now(ARGV)
