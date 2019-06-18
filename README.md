@@ -1,4 +1,6 @@
-(Nick) Fury humanity's first line of defense against command line usage
+`Github` repo is a mirror of `Gitlab` repo
+
+(Nick) `Fury` humanity's first line of defense against command line usage
 
 Its a gem version of [Command Service ](https://github.com/ahsandar/command-service) to run multiple shell commands and get its output. It allows you to setup chain of commands need to be executed and also give a standard interface to run shell commands without worrying about different ruby syntax to execute command and capture the output.
 
