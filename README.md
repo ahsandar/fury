@@ -1,4 +1,4 @@
-`Github` repo is a mirror of `Gitlab` repo
+`Github` repo is a mirror of a `Gitlab` repo
 
 (Nick) `Fury` humanity's first line of defense against command line usage
 
